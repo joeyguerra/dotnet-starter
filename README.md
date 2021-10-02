@@ -28,3 +28,19 @@ I chose `make` as the Mission Control tool.
     - MacOS - `brew install make`
     - Windows - `choco install make`
     - Ubuntu - `sudo apt-get install build-essential`
+
+## Create a Console App
+
+I'm in VS Code. In the terminal, I can just copy and paste this in the terminal and hit `enter` to run all the commands at once.
+
+```bash
+dotnet new sln -o .
+dotnet new classlib -o DotnetStarter
+dotnet sln add DotnetStarter/DotnetStarter.csproj
+dotnet new xunit -o DotnetStarter.Tests
+dotnet sln add ./DotnetStarter.Tests/DotnetStarter.Tests.csproj
+```
+
+## Step 2.
+
+Run `dotnet test` and see a Passing test.
