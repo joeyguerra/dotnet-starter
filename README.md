@@ -43,4 +43,4 @@ dotnet sln add ./DotnetStarter.Tests/DotnetStarter.Tests.csproj
 
 ## Step 2.
 
-Run `dotnet test` and see a Passing test.
+Run `dotnet test` and see a Failing test.
